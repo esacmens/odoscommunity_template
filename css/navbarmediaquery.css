@@ -1,0 +1,437 @@
+@import url(colors.css);
+body{
+    box-sizing: border-box;
+    
+}
+html, body{
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none !important;
+    font-family:  'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+.ul-styles{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.navullis li a{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.getstarted-li li a, .navloginli li a{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* navlogo */
+.navlogo{
+    width: 60px;
+    height: 60px;
+    margin: 10px 0px 10px 10px;
+}
+.navlogo .logo{
+    width: 100%;
+    height: 100%;
+
+}
+/* the end navlogo */
+/* div-form */
+.div-form{
+    display: none;
+}
+/* the end div-form */
+/* bumbur-search-div */
+.humburgarbar{
+   display: none;
+}
+.closbarmobile{
+    display: none;
+}
+@media only screen and (max-width: 767px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navcontainernav{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding-top: 20px;
+        padding-bottom: 40px;
+        overflow-x: hidden !important;
+    }
+    .bumbur-search-div{
+        display: flex;
+        align-items: center;
+        width: 100%;
+      justify-content: space-around;
+      padding: 0px 10px;
+      margin: 0px auto;
+      max-width: 95%;
+    }
+    .mobile-style{
+        position: fixed;
+        top: 0;
+        background-color: var(--primary-color);
+        height: 100vh;
+        width: 100vw;
+    }
+    .mobile-style{
+        display: none;
+    }
+    .uldivs-content{
+        display: flex;
+       flex-direction: column;
+       position: relative;
+    }
+    .closbarmobile{
+        position: absolute;
+        right: 0;
+        padding: 20px;
+        cursor: pointer;
+        display: block;
+    }
+    .ulnavbar{
+        margin-top: 350px !important;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        margin-left: 25px;
+      
+    }
+    .navlogo{
+        width: 120px;
+        height: 120px;
+    }
+    .navlogo .logo{
+        width: 100%;
+    }
+    
+    .uldivs-content{
+        width: 100vw;
+    }
+  
+    /* hidmobilebater */
+    .hidmobilebater{
+        display: block;
+    }
+   
+    .fa-sharp, .fa-xmark{
+        color: white;
+        font-size: 25px;
+    }
+    .div-form{
+        width: 80%;
+        border: 5px solid #B08A7B;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 50px;
+        padding-left:10px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 12px;
+      }
+      .div-form form{
+        display: flex;
+        align-items: center;
+      }
+      .div-form form input{
+          width: 92%;
+          background-color: transparent;
+        border: 0;
+        padding: 7px;
+        outline: 0;
+        color: white;
+      }
+      .div-form form button{
+          width: 5%;
+        background-color: transparent;
+        border: 0;
+       
+        padding-right: 25px;
+      }
+      .fa-magnifying-glass{
+        color: white;
+        font-size: 15px;
+      }
+      .humburgarbar{
+        cursor: pointer;
+        display: block;
+        padding-left: 0px;
+        margin-right: -25px;
+      }
+      .ul-styles{
+        margin-top: 50px;
+        position: relative;
+        background-color: var(--primary-color);
+        
+      }
+      .navullis li{
+        margin-top: 15px;
+      }
+      .ulnavbar >.navullis{
+       flex-direction: column;
+    }
+    .ulnavbar >.navullis li a{
+        color: var( --narbar-color);  
+        font-size: 25px;
+        font-family: var(--font-family);
+        font-weight: 800;
+}
+
+
+.getstarted .getstarted-li li a{
+    color: var(--primary-color) !important;
+    font-size: 20px;
+    font-family: var(--font-family);
+}
+.navloginli li a{
+    color: var(--narbar-color) !important;
+    font-size: 20px;
+    font-family: var(--font-family);
+   
+}
+::placeholder{
+    color: white;
+    font-size: 12px;
+}
+.navloginli{
+    position: absolute;
+    margin-bottom: 35%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+.getstarted{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    -webkit-order: 2;
+    max-width:100vh;
+    z-index: 99;
+    
+    }
+.getstarted-li{
+    background-color: white;
+    margin-top: 55px;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+.getstarted-li li a{
+    text-align: center !important;
+}
+}
+
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navcontainernav{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding-top: 20px;
+        padding-bottom: 40px;
+        overflow-x: hidden !important;
+    }
+    .bumbur-search-div{
+        display: flex;
+        align-items: center;
+        width: 100%;
+      justify-content: space-around;
+      padding: 0px 10px;
+      margin: 0px auto;
+      max-width: 95%;
+    }
+    .mobile-style{
+        position: fixed;
+        top: 0;
+        background-color: var(--primary-color);
+        height: 100vh;
+        width: 100vw;
+    }
+    .mobile-style{
+        display: none;
+    }
+    .uldivs-content{
+        display: flex;
+       flex-direction: column;
+       position: relative;
+    }
+    .closbarmobile{
+        position: absolute;
+        right: 0;
+        padding: 20px;
+        cursor: pointer;
+        display: block;
+    }
+    .ulnavbar{
+        margin-top: 250px !important;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        margin-left: 25px;
+      
+    }
+    .navlogo{
+        width: 120px;
+        height: 120px;
+    }
+    .navlogo .logo{
+        width: 100%;
+    }
+    
+    .uldivs-content{
+        width: 100vw;
+    }
+  
+    /* hidmobilebater */
+    .hidmobilebater{
+        display: block;
+    }
+   
+    .fa-sharp, .fa-xmark{
+        color: white;
+        font-size: 25px;
+    }
+    .div-form{
+        width: 80%;
+        border: 5px solid #B08A7B;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        padding-left:20px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 12px;
+      }
+      .div-form form{
+        display: flex;
+        align-items: center;
+      }
+      .div-form form input{
+          width: 92%;
+          background-color: transparent;
+        border: 0;
+        padding: 5px;
+        outline: 0;
+        color: white;
+      }
+      .div-form form button{
+          width: 5%;
+        background-color: transparent;
+        border: 0;
+       
+        padding-right: 25px;
+      }
+      .fa-magnifying-glass{
+        color: white;
+        font-size: 15px;
+      }
+      .humburgarbar{
+        cursor: pointer;
+        display: block;
+        padding-left: 1px;
+        margin-right: 0px;
+      }
+      .ul-styles{
+        margin-top: 50px;
+        position: relative;
+        background-color: var(--primary-color);
+        
+      }
+      .navullis li{
+        margin-top: 15px;
+      }
+      .ulnavbar >.navullis{
+       flex-direction: column;
+    }
+    .ulnavbar >.navullis li a{
+        color: var( --narbar-color);  
+        font-size: 25px;
+        font-family: var(--font-family);
+        font-weight: 800;
+}
+
+
+.getstarted .getstarted-li li a{
+    color: var(--primary-color) !important;
+    font-size: 20px;
+    font-family: var(--font-family);
+}
+.navloginli li a{
+    color: var(--narbar-color) !important;
+    font-size: 20px;
+    font-family: var(--font-family);
+   
+}
+::placeholder{
+    color: white;
+    font-size: 12px;
+}
+.navloginli{
+    position: absolute;
+    margin-bottom: 35%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+.getstarted{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    -webkit-order: 2;
+    max-width:100vh;
+    }
+.getstarted-li{
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+.getstarted-li li a{
+    text-align: center !important;
+}
+}
