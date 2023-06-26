@@ -1,0 +1,116 @@
+
+
+@media only screen and (min-width: 1065px) and (max-width: 1281px) {
+
+.best-deal {
+    background-color: black;
+} 
+
+.bestdeal-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bestdeal-text{
+    color: white;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bestdeal-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 100px 0px 25px;
+}
+
+.bestdeal-p {
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 17px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+}
+
+@media only screen and (min-width: 1282px) {
+
+    .best-deal {
+        background-color: black;
+    } 
+    
+    .bestdeal-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .bestdeal-text{
+        color: white;
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .bestdeal-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 45px;
+        font-weight: 700;
+        padding: 100px 0px 25px;
+    }
+    
+    .bestdeal-p {
+        text-align: center;
+        padding-bottom: 60px;
+        font-size: 17px;
+        width: 55%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .bestdeal-header {
+        font-size: 50px;
+
+    }    
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .bestdeal-header {
+        font-size: 55px;
+
+    }    
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .bestdeal-header {
+        font-size: 60px;
+
+    }    
+}
+
+@media only screen and (min-width: 1700px) {
+
+    .bestdeal-header {
+        font-size: 65px;
+
+    }    
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .bestdeal-header {
+        font-size: 70px;
+
+    }    
+}
